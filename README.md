@@ -2326,8 +2326,29 @@ M05
 M02
 %
 ```
-
 ### Cut G Code
+```
+%
+( CopperCAM - 07/03/2025 / ISO-Mill Output )
+( C:\COPPERCAM\CopperCAM.iso created 13/03/2025 at 16:08 )
+( Workpiece dimensions: 91.11 x 59.68 x 1 mm )
+G21 G40 G54
+G80 G90 G94
+( Tool #2 "Basic Cutter" / Diameter 3 mm )
+T2 M06
+M03 S12000
+G00 X90.07 Y1.04
+G00 Z0
+G01 F60 Z-1
+G01 F300 Y58.64
+G01 X1.04
+G01 Y1.04
+G01 X90.07
+G00 Z2
+M05
+M02
+%
+```
 
 ## Auto leveller
 
@@ -4452,7 +4473,6 @@ M05
 M02
 %
 ```
-
 ### Drill G code
 ```
 M6Tx
@@ -4615,7 +4635,6 @@ M05
 M02
 %
 ```
-
 ### Cut G Code 
 ```
 M6Tx
@@ -4636,6 +4655,5 @@ M05
 M02
 %
 ```
-
 ## RESULT:
 Thus, the Gerber files of the automatic street light control circuit were successfully converted into CNC G-Code and G-Code into Auto leveller Code for accurate and high-quality PCB engraving, drilling, and cutting using the CNC machine.
